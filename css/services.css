@@ -1,0 +1,50 @@
+/* SERVICES */
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 163px;
+
+    padding-top: 110px;
+}
+
+.services__content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    width: 650px;
+}
+
+
+
+.services__slider{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px 15px;
+
+    width: 650px;
+}
+
+.services__slides{
+    width: 150px;
+    height: 120px;
+
+    border-radius: 40px;
+    backdrop-filter: blur(7.5px);
+
+    background-image: url(/assets/image_services_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services__mainpicture{
+    width: 644px;
+    height: 644px;
+
+    border-radius: 2000px;
+
+    /* не очень получается с накладыванием фильтров на основную картинку */
+    background: linear-gradient(0deg, rgba(210, 171, 103, 0.25) 0%, rgba(210, 171, 103, 0.25) 100%);
+}

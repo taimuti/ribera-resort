@@ -1,0 +1,49 @@
+/* IMPORT */
+
+@import "fonts.css";
+@import "icons.css";
+@import "positioning.css";
+@import "slider.css";
+
+@import "header.css";
+@import "intro.css";
+@import "about.css";
+@import "healing.css";
+@import "services.css";
+@import "contacts.css";
+@import "footer.css";
+
+
+
+/* COMMON */
+
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    display: block;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+p,
+h1,h2,h3,h4,h5,h6 {
+    margin:0;
+}
+
+a{
+    text-decoration-line: none;
+    color: #000;
+}
+
+.container{
+    width: 100%;
+    min-height: 1020px;
+    height: auto;
+
+    margin: 0 auto;
+    padding: 50px 175px;
+}

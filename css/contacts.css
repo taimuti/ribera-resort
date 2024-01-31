@@ -1,0 +1,76 @@
+/* CONTACTS */
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    padding-top: 110px;
+}
+
+.contacts__map{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 30px;
+
+    width: 1070px;
+    height: 706px;
+    padding: 40px 40px 65px 50px;
+
+    background-image: url('/assets/contacts.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts__button{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: fit-content;
+    padding: 12px 35px;
+
+    border-radius: 200px;
+    background: #FFAD57;
+}
+
+.contacts__adress{
+    display: flex;
+    gap: 25px;
+}
+
+
+.contacts__content{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    width: 470px;
+    height: 706px;
+}
+
+.contacts__card{
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+
+    width: 470px;
+    padding: 30px;
+    margin-bottom: 15px;
+
+    border-radius: 20px;
+    background: rgba(210, 171, 103, 0.05);
+}
+
+.contacts__ask{
+    width: 100%;
+}

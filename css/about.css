@@ -1,0 +1,66 @@
+/* ABOUT */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    width: 628px;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+.about__picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    width: 768px;
+    height: 710px;
+}
+
+.about__pictureframes{
+    position: absolute;
+    display: block;
+
+    width: 703px;
+    height: 598px;
+
+    border-radius: 15px;
+    background: rgba(255, 173, 87, 0.15);
+}
+
+
+
+/* SLIDER */
+
+.about__slider{
+    display: flex;
+    gap: 15px;
+
+    width: 615px;
+    margin: 15px 0;
+}
+
+.about__slides{
+    width: 90px;
+    height: 90px;
+
+    border-radius: 20px;
+    background: rgba(255, 173, 87, 0.15);
+    backdrop-filter: blur(7.5px);
+
+    background-image: url(/assets/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about__slides:focus{
+    box-shadow: 0px 0px 25px 0px #FFAD57;
+}

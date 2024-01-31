@@ -1,0 +1,88 @@
+/* HEALING */
+
+.healing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+.healing__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.healing__image{
+    width: 100%;
+    height: 320px;
+    padding: 30px;
+
+    border-radius: 15px;
+
+    background-image: url('/assets/healing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.healing__content{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+
+
+.healing__left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.healing__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    width: 800px;
+}
+
+.healing__item{
+    width: fit-content;
+    padding: 12px 35px;
+
+    border-radius: 200px;
+    background: rgba(210, 171, 103, 0.05);
+}
+.healing__item:focus{
+    color: white;
+    background: #FFAD57;
+}
+
+.healing__infobox{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+
+
+.healing__right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.healing__icons{
+    width: 54px;
+    height: 48px;
+    padding: 12px 15px;
+
+    border-radius: 200px;
+    background: rgba(255, 173, 87, 0.10);
+}

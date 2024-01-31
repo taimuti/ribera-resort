@@ -1,0 +1,47 @@
+/* HEADER */
+
+.header{
+    position: absolute;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 50px 175px;
+}
+
+.header__logo{
+    width: 76px;
+    height: 60px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 670px;
+}
+
+
+
+/* NAVIGATION */ 
+
+.header__item{             /* вынести отдельно навигацию: nav__item ? */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__line{              /* как разместить нормально */
+    position: absolute;
+    margin-top: 30px;
+
+    width: 40px;
+    height: 4px;
+
+    border-radius: 200px;
+    background: #FFF;
+}

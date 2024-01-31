@@ -1,0 +1,20 @@
+/* POSITIONING PICTURES */
+/* норм так размещать картинки вообще? */
+
+.position--left0{left: 0px;}
+
+.position--top0{top: 0px;}
+.position--top40{top: 40px;}
+
+.position--right0{right: 0px;}
+.position--right7{right: 7px;}
+.position--right14{right: 14px;}
+.position--right21{right: 21px;}
+.position--right40{right: 40px;}
+
+.position--bottom0{bottom: 0px;}
+.position--bottom31{bottom: 31px;}
+.position--bottom40{bottom: 40px;}
+.position--bottom54{bottom: 54px;}
+
+.position--zindex1{z-index: 1;}

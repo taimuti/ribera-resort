@@ -1,0 +1,28 @@
+/* SLIDER NAVIGATION */
+
+.slider__navigation{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    width: fit-content;
+}
+
+.slider__dotsrow{
+    display: flex;
+    gap: 10px;
+
+    width: fit-content;
+    margin: 0 15px;
+}
+
+.slider__dot{
+    height: 8px;
+    width: 8px;
+    background-color: #DADADA;
+    border-radius: 50%;
+    display: inline-block;
+}
+.slider__dot:focus{
+    background-color: #FFAD57;
+}

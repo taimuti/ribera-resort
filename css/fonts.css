@@ -1,0 +1,52 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Noah';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/noah-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Noah';
+    font-style: bold;
+    font-weight: 700;
+    src: url('/fonts/noah-bold.ttf') format('truetype');
+}
+
+
+
+.text{
+    font-family: 'Noah';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;              /* указывать дефолтные размеры или вынести ниже? */
+    line-height: 38px;
+    color: #000;
+}
+
+.text--white{color: #fff}
+.text--orange{color: #FFAD57}
+.text--red{color: #FF5757}
+.text--beige{color: #D2AB67}
+
+.text--bold{font-weight: 700}
+
+.text--uppercase{text-transform: uppercase}
+
+.text--opac10{opacity: 10%;}
+.text--opac50{opacity: 50%;}
+
+.text--size20{font-size: 20px}
+.text--size24{font-size: 24px}
+/* .text--size28{font-size: 28px} */
+.text--size36{font-size: 36px}
+.text--size150{font-size: 150px}
+
+.text--height30{line-height: 30px}
+.text--height34{line-height: 34px}
+/* .text--height38{line-height: 38px} */
+.text--height40{line-height: 40px}
+.text--height50{line-height: 50px}
+.text--height120{line-height: 120px}
+.text--height150{line-height: 150px}
